@@ -1,0 +1,737 @@
+/* XS */
+/* @media (min-width: 475px){
+
+} */
+
+/* Sm */
+/* @media (min-width: 640px){
+
+} */
+
+/* Md */
+/* @media (min-width: 768px){
+
+} */
+
+/* Lg */
+/* @media (min-width: 1024px){
+
+} */
+
+/* Xl */
+/* @media (min-width: 1280px){
+
+} */
+
+/* 2Xl */
+/* @media (min-width: 1536px){
+
+} */
+
+/* XXS */
+
+@media (min-width: 320px) {
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .container {
+    display: none;
+    padding: 0;
+    width: 300px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .bar {
+    display: flex;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: var(--text-primary);
+    border: 0;
+  }
+  .bar svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .hero {
+    width: 100%;
+    margin-right: 0;
+  }
+  .hero-me {
+    gap: 0.5rem;
+  }
+  .hero-my {
+    gap: 2rem;
+  }
+  .image {
+    width: 5.5rem;
+  }
+  .me {
+    padding: 0 0 0 0.2rem;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .full-round {
+    display: none;
+  }
+  .side-bar {
+    width: 300px;
+    margin: 0;
+    z-index: 30;
+    position: fixed;
+  }
+  .side-menu {
+    padding: 0.5rem 0 0 1.25rem;
+    
+  }
+  .side-menu a {
+    display: flex;
+    text-decoration: inherit;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1.25rem;
+    background-color: transparent;
+    gap: 1.25rem;
+    align-items: center;
+    color: var(--text-primary);
+  }
+  .insta {
+    padding: 0rem 0.35rem;
+  }
+  .insta a span {
+    display: none;
+  }
+  .insta a div {
+    width: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a div svg {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .project-name {
+    grid-template-columns: 0fr;
+    grid-row-gap: 1rem;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-grid {
+    width: 275px;
+  }
+  .X {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    top: 15px;
+}
+.X svg {
+    color: var(--text-primary);
+    width: 2rem;
+  }
+}
+
+/* XS */
+@media (min-width: 425px) {
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .container {
+    display: none;
+    padding: 0;
+    width: inherit;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .full-round {
+    display: none;
+  }
+  .bar {
+    display: flex;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: var(--text-primary);
+    border: 0;
+  }
+  .bar svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .hero {
+    width: 100%;
+    margin-right: 0;
+  }
+  .hero-my {
+    gap: 1rem;
+  }
+  .image {
+    width: 7.5rem;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .full-round {
+    display: none;
+  }
+  .side-bar {
+    width: 300px;
+    margin: 0;
+    z-index: 30;
+    position: fixed;
+  }
+  .side-menu {
+    padding: 0.5rem 0 0 1.25rem;
+  }
+  .side-menu a {
+    display: flex;
+    text-decoration: inherit;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1.25rem;
+    background-color: transparent;
+    gap: 1.25rem;
+    align-items: center;
+    color: var(--text-primary);
+  }
+  .insta a span {
+    display: none;
+  }
+  .insta a div {
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a div svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .project-name {
+    grid-template-columns: 0fr;
+    grid-row-gap: 1rem;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-grid {
+    width: 315px;
+  }
+  .X {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+.X svg {
+    color: var(--text-primary);
+    width: 2rem;
+  }
+}
+
+/* Sm */
+@media (min-width: 640px) {
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .container {
+    display: none;
+    width: inherit;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    margin-right: 0;
+  }
+  .hero-my {
+    gap: 4rem;
+  }
+  .insta {
+    padding: 0;
+  }
+  .insta a span {
+    display: none;
+  }
+  .insta a div {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a div svg {
+    width: 3rem;
+    height: 3rem;
+  }
+  .bar {
+    display: flex;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: var(--text-primary);
+    border: 0;
+  }
+  .full-round {
+    display: none;
+  }
+  .side-bar {
+    width: 350px;
+    margin: 0;
+    z-index: 30;
+    position: fixed;
+  }
+  .side-menu {
+    padding: 0.5rem 0 0 1.25rem;
+  }
+  .side-menu a {
+    display: flex;
+    text-decoration: inherit;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1.25rem;
+    background-color: transparent;
+    gap: 1.25rem;
+    align-items: center;
+    color: var(--text-primary);
+  }
+  .project-name {
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-column-gap: 1rem;
+    padding: 0 5px;
+  }
+  .project-grid {
+    width: 210px;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+  .project {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .my-work h3 {
+    padding-left: 1rem;
+  }
+  .X {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+.X svg {
+    color: var(--text-primary);
+    width: 2rem;
+  }
+}
+
+/* Md */
+@media (min-width: 768px) and (max-width: 769px) {
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .container {
+    display: none;
+    width: inherit;
+  }
+  .full-round {
+    display: none;
+  }
+  .side-bar {
+    width: 350px;
+    margin: 0;
+    z-index: 30;
+    position: fixed;
+  }
+  .side-menu {
+    padding: 0.5rem 0 0 1.25rem;
+  }
+  .side-menu a {
+    display: flex;
+    text-decoration: inherit;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1.25rem;
+    background-color: transparent;
+    gap: 1.25rem;
+    align-items: center;
+    color: var(--text-primary);
+  }
+  .navbar {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    margin-right: 0;
+  }
+  .hero-my {
+    gap: 7rem;
+  }
+  .bar {
+    display: flex;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: var(--text-primary);
+    border: 0;
+  }
+  .project-name {
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-column-gap: 1rem;
+    padding: 0 5px;
+  }
+  .project-grid {
+    width: 210px;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+  .project {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .my-work h3 {
+    padding-left: 1rem;
+  }
+  .insta a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-primary);
+    pointer-events: none;
+    outline-width: 0;
+    gap: 0.5rem;
+  }
+  .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 860px; */
+    background: var(--btn-secondary);
+    padding: 0.5rem;
+    outline-width: 0;
+    border-radius: 0.375rem;
+    outline-width: 0;
+  }
+  .insta a div svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .insta a div {
+    width: 2rem;
+  }
+  .X {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+.X svg {
+    color: var(--text-primary);
+    width: 2rem;
+  }
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    width: 100%;
+    height: max-content;
+  }
+  .full-round {
+    display: flex;
+  }
+  .navbar {
+    width: 77%;
+  }
+  .container {
+    display: flex;
+    width: 270px;
+  }
+  .bar {
+    display: none;
+  }
+  .hero {
+    width: 70%;
+    margin-right: 8px;
+  }
+  .hero-my {
+    gap: 8rem;
+  }
+  .id {
+    font-size: 0.8rem;
+  }
+  .name {
+    font-size: 1.1rem;
+  }
+  .content {
+    width: 73%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .project {
+    padding: 0 1rem;
+  }
+  .my-work h3 {
+    padding-left: 0.5rem;
+  }
+  .project-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .my-work {
+    overflow: hidden;
+  }
+  .project-grid {
+    width: 150px;
+  }
+  .project-grid h4 {
+    margin: 1.5rem 0 0 0.5rem;
+  }
+  .project-grid p {
+    margin: 0 0 2rem 0.5rem;
+  }
+  .insta a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-primary);
+    pointer-events: none;
+    outline-width: 0;
+    gap: 0.5rem;
+  }
+  .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 860px; */
+    background: var(--btn-secondary);
+    padding: 0.5rem;
+    outline-width: 0;
+    border-radius: 0.375rem;
+    outline-width: 0;
+  }
+  .insta a div svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .insta a div {
+    width: 2rem;
+  }
+  .X {
+    display: none;
+  }
+}
+
+/* Xl */
+@media (min-width: 1440px) {
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .navbar {
+    width: 79%;
+  }
+  .full-round {
+    display: flex;
+  }
+  .container {
+    display: flex;
+  }
+  .bar {
+    display: none;
+  }
+  .hero {
+    width: 78%;
+    margin-right: 8px;
+  }
+  .hero-my {
+    gap: 32rem;
+  }
+  .id {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .project-grid {
+    width: 256px;
+  }
+  .content {
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .project {
+    padding: 0 0.8rem;
+  }
+  .my-work h3 {
+    padding-left: 0.4rem;
+  }
+  .project-name {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    padding: 0 5px;
+  }
+  .insta a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-primary);
+    pointer-events: none;
+    outline-width: 0;
+    gap: 0.5rem;
+  }
+  .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 860px; */
+    background: var(--btn-secondary);
+    padding: 0.5rem;
+    outline-width: 0;
+    border-radius: 0.375rem;
+    outline-width: 0;
+  }
+  .insta a div svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .insta a div {
+    width: 2rem;
+  }
+  .X {
+    display: none;
+  }
+}
+
+/* 2Xl */
+@media (min-width: 1536px) and (max-width: 2000px){
+  main {
+    width: 100%;
+    height: max-content;
+  }
+  .navbar {
+    width: 79%;
+  }
+  .container {
+    display: flex;
+  }
+  .bar {
+    display: none;
+  }
+  .hero {
+    width: 83%;
+    margin-right: 8px;
+  }
+  .hero-my {
+    gap: 32rem;
+  }
+  .id {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .project-grid {
+    width: 256px;
+  }
+  .content {
+    width: 83%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .project {
+    padding: 0 0.8rem;
+  }
+  .my-work h3 {
+    padding-left: 0.4rem;
+  }
+  .project-name {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 25px;
+  }
+  .insta a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-primary);
+    pointer-events: none;
+    outline-width: 0;
+    gap: 0.5rem;
+  }
+  .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0 860px; */
+    background: var(--btn-secondary);
+    padding: 0.5rem;
+    outline-width: 0;
+    border-radius: 0.375rem;
+    outline-width: 0;
+  }
+  .insta a div svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .insta a div {
+    width: 2rem;
+  }
+  .X {
+    display: none;
+  }
+}
